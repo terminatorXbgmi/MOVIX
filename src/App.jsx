@@ -4,7 +4,7 @@ import { fetchDataFromApi } from "./utils/api";
 
 import { useSelector, useDispatch } from "react-redux";
 
-import { getApiConfiguration,getGenres } from "./store/homeSlice";
+import { getApiConfiguration,getGenres } from "./store/HomeSlice";
 
 //--->
 import Header from "./components/header/Header";

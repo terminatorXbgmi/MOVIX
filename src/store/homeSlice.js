@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 
 
-export const homeSlice = createSlice({
+export const HomeSlice = createSlice({
   name: "home",
   initialState:{
     url:{},
@@ -20,6 +20,6 @@ export const homeSlice = createSlice({
 });
 
 // Action creators are generated for each case reducer function
-export const { getApiConfiguration , getGenres} = homeSlice.actions;
+export const { getApiConfiguration , getGenres} = HomeSlice.actions;
 
-export default homeSlice.reducer;
+export default HomeSlice.reducer;
